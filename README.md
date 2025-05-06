@@ -28,21 +28,20 @@ An AI-powered web application that helps users automatically **categorize expens
 
 
 
+```bash
 finance_chatbot_app/
 │
-├── app.py # Streamlit main app
-├── chatbot_utils.py # Utility functions (model loading)
-├── .env # Stores OpenAI API Key (if chatbot is enabled)
+├── app.py                  # Streamlit main app
+├── chatbot_utils.py        # Utility functions (model loading)
+├── .env                    # Environment file (optional)
 ├── models/
-│ ├── classifier.pkl # Expense categorization model
-│ ├── budget_model.pkl # Budget prediction model
-│ ├── forecast_model.pkl # Forecasting model
-│ └── vectorizer.pkl # TF-IDF Vectorizer
-├── sample_data.csv # Example CSV file
+│   ├── classifier.pkl       # Expense categorization model
+│   ├── budget_model.pkl     # Budget prediction model
+│   ├── forecast_model.pkl   # Forecasting model
+│   └── vectorizer.pkl       # TF-IDF Vectorizer
+├── sample_data.csv         # Example CSV file
 └── README.md
-
-
-
+```
 
 
 ---
